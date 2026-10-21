@@ -31,3 +31,4 @@ def hasil_prediksi():
 
     # 1 button
 tombol = tk.Button(top, text="Hasil Prediksi", command=hasil_prediksi,
+                   font=("Arial", 11, "bold"), width=18)
