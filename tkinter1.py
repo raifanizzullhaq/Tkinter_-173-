@@ -9,3 +9,7 @@ top.resizable(False, False)
 judul = tk.Label(top, text="Aplikasi Prediksi Prodi Pilihan",
                  font=("Arial", 16, "bold"))
 judul.pack(pady=15)
+
+# Frame untuk 10 input nilai mata pelajaran
+frame = tk.Frame(top)
+frame.pack(pady=5)
