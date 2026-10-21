@@ -36,3 +36,4 @@ tombol = tk.Button(top, text="Hasil Prediksi", command=hasil_prediksi,
 tombol.pack(pady=15)
 
 # 1 label luaran hasil prediksi
+label_hasil = tk.Label(top, text="", font=("Arial", 13, "bold"), fg="blue")
