@@ -16,3 +16,11 @@ frame.pack(pady=5)
 
 mapel = ["Matematika", "Bahasa Indonesia", "Bahasa Inggris", "Fisika",
          "Kimia", "Biologi", "Ekonomi", "Sosiologi", "Geografi", "Informatika"]
+
+entries = []
+for i, nama in enumerate(mapel):
+    tk.Label(frame, text=nama, anchor="w", width=18).grid(
+        row=i, column=0, padx=5, pady=3, sticky="w")
+    e = tk.Entry(frame, width=12, justify="center")
+    e.grid(row=i, column=1, padx=5, pady=3)
+    entries.append(e)
