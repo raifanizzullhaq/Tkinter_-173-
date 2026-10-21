@@ -13,3 +13,6 @@ judul.pack(pady=15)
 # Frame untuk 10 input nilai mata pelajaran
 frame = tk.Frame(top)
 frame.pack(pady=5)
+
+mapel = ["Matematika", "Bahasa Indonesia", "Bahasa Inggris", "Fisika",
+         "Kimia", "Biologi", "Ekonomi", "Sosiologi", "Geografi", "Informatika"]
