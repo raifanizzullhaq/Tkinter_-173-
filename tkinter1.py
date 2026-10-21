@@ -24,3 +24,7 @@ for i, nama in enumerate(mapel):
     e = tk.Entry(frame, width=12, justify="center")
     e.grid(row=i, column=1, padx=5, pady=3)
     entries.append(e)
+
+    # Fungsi: apapun inputnya, hasil selalu TeknologiInformasi
+def hasil_prediksi():
+    label_hasil.config(text="Prodi: TeknologiInformasi")
