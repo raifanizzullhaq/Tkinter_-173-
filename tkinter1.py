@@ -28,3 +28,6 @@ for i, nama in enumerate(mapel):
     # Fungsi: apapun inputnya, hasil selalu TeknologiInformasi
 def hasil_prediksi():
     label_hasil.config(text="Prodi: TeknologiInformasi")
+
+    # 1 button
+tombol = tk.Button(top, text="Hasil Prediksi", command=hasil_prediksi,
